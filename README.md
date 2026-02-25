@@ -1,10 +1,19 @@
 # E-Commerce Funnel & KPI Analytics
-
+Designed and built a full-stack analytics system translating raw event data into quantified business optimization strategies.
 End-to-end e-commerce analytics project using GA4 BigQuery sample data.  
 This project covers SQL data modeling, Tableau dashboard visualization, and advanced Python analysis including revenue decomposition and conversion impact modeling.
 
 ---
+## 🎯 Business Problem
 
+An e-commerce company wants to understand performance across its user funnel and identify the highest-impact levers to:
+
+- Increase revenue
+- Reduce funnel leakage
+- Improve post-holiday performance stability
+- Prioritize device optimization investments
+
+The goal is to move from descriptive metrics to actionable, quantified strategic recommendations.
 ## 📊 Executive Summary
 
 This project analyzes user behavior across an e-commerce funnel to understand:
@@ -155,6 +164,13 @@ ecommerce-funnel-analytics/
 
 ---
 
+## ▶️ How to Reproduce Analysis
+
+1. Load CSV files from `/data/`
+2. Open `notebook/01_funnel_deep_dive.ipynb`
+3. Install dependencies (pandas, numpy, matplotlib)
+4. Run all cells to reproduce KPI calculations and simulations
+   
 ## 🛠 Tech Stack
 
 - Google BigQuery (SQL modeling)
