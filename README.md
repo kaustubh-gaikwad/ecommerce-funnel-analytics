@@ -137,7 +137,7 @@ Notebook available here:
 ecommerce-funnel-analytics/
 │
 ├── dashboard/
-│   └── ecommerce_dashboard.png
+│   └── tableau_dashboard.png
 │
 ├── data/
 │   ├── daily_kpis.csv
