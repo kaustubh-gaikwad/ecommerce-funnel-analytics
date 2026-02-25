@@ -51,7 +51,7 @@ Revenue peaked during early–mid December (holiday period), followed by a 72% d
 
 ## 📈 Dashboard Preview
 
-![Dashboard](dashboard/ecommerce_dashboard.png)
+[Tableau Dashboard] (https://github.com/kaustubh-gaikwad/ecommerce-funnel-analytics/blob/main/dashboard/Tableau%20Dashboard.png)
 
 The dashboard highlights:
 - Revenue & Conversion trends
