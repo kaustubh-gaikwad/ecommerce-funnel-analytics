@@ -1,6 +1,7 @@
 # E-Commerce Funnel & KPI Analytics
+
 Designed and built a full-stack analytics system translating raw event data into quantified business optimization strategies using SQL, Tableau, and Python.
-This project covers SQL data modeling, Tableau dashboard visualization, and advanced Python analysis including revenue decomposition and conversion impact modeling.
+This project integrates SQL data modeling, Tableau dashboard visualization, and advanced Python analysis including revenue decomposition and conversion impact modeling.
 
 ---
 ## Business Problem
@@ -13,6 +14,7 @@ An e-commerce company wants to understand performance across its user funnel and
 - Prioritize device optimization investments
 
 The goal is to move from descriptive metrics to actionable, quantified strategic recommendations.
+
 ## Executive Summary
 
 This project analyzes user behavior across an e-commerce funnel to understand:
@@ -50,8 +52,7 @@ Revenue peaked during early–mid December (holiday period), followed by a 72% d
 
 ## Dashboard Preview
 
-[Tableau Dashboard](https://github.com/kaustubh-gaikwad/ecommerce-funnel-analytics/blob/main/dashboard/Tableau%20Dashboard.png)
-
+![Dashboard Preview](dashboard/ecommerce_dashboard.png)
 The dashboard highlights:
 - Revenue & Conversion trends
 - Funnel stage distribution
@@ -160,7 +161,10 @@ ecommerce-funnel-analytics/
 2. Prioritize mobile UX improvements (high revenue elasticity).
 3. Run post-holiday re-engagement campaigns to stabilize conversion.
 4. Monitor conversion deterioration more aggressively than traffic changes.
-5. This analysis demonstrates how small improvements in conversion efficiency can produce outsized revenue gains, reinforcing the importance of conversion optimization over traffic acquisition alone. 
+---
+
+## Business Impact
+This analysis demonstrates how small improvements in conversion efficiency can produce outsized revenue gains, reinforcing the importance of conversion optimization over traffic acquisition alone.
 
 ---
 
