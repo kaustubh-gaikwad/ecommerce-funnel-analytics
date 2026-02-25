@@ -1,10 +1,9 @@
 # E-Commerce Funnel & KPI Analytics
-Designed and built a full-stack analytics system translating raw event data into quantified business optimization strategies.
-End-to-end e-commerce analytics project using GA4 BigQuery sample data.  
+Designed and built a full-stack analytics system translating raw event data into quantified business optimization strategies using SQL, Tableau, and Python.
 This project covers SQL data modeling, Tableau dashboard visualization, and advanced Python analysis including revenue decomposition and conversion impact modeling.
 
 ---
-## 🎯 Business Problem
+## Business Problem
 
 An e-commerce company wants to understand performance across its user funnel and identify the highest-impact levers to:
 
@@ -14,7 +13,7 @@ An e-commerce company wants to understand performance across its user funnel and
 - Prioritize device optimization investments
 
 The goal is to move from descriptive metrics to actionable, quantified strategic recommendations.
-## 📊 Executive Summary
+## Executive Summary
 
 This project analyzes user behavior across an e-commerce funnel to understand:
 
@@ -34,7 +33,7 @@ Revenue peaked during early–mid December (holiday period), followed by a 72% d
 
 ---
 
-## 🧱 Project Architecture
+## Project Architecture
 
 **Data Source:** GA4 BigQuery public sample dataset  
 
@@ -49,9 +48,9 @@ Revenue peaked during early–mid December (holiday period), followed by a 72% d
 
 ---
 
-## 📈 Dashboard Preview
+## Dashboard Preview
 
-[Tableau Dashboard] (https://github.com/kaustubh-gaikwad/ecommerce-funnel-analytics/blob/main/dashboard/Tableau%20Dashboard.png)
+[Tableau Dashboard](https://github.com/kaustubh-gaikwad/ecommerce-funnel-analytics/blob/main/dashboard/Tableau%20Dashboard.png)
 
 The dashboard highlights:
 - Revenue & Conversion trends
@@ -61,9 +60,9 @@ The dashboard highlights:
 
 ---
 
-## 🔍 Key Analytical Findings
+## Key Analytical Findings
 
-### 1️⃣ Revenue Drivers
+### 1️) Revenue Drivers
 
 Correlation analysis shows revenue is most sensitive to:
 
@@ -75,7 +74,7 @@ Conversion rate is the strongest revenue lever.
 
 ---
 
-### 2️⃣ Holiday vs Post-Holiday Decline
+### 2️) Holiday vs Post-Holiday Decline
 
 Post-holiday performance change:
 
@@ -88,7 +87,7 @@ The primary driver of revenue decline was conversion rate deterioration.
 
 ---
 
-### 3️⃣ Funnel Drop-Off Analysis
+### 3️) Funnel Drop-Off Analysis
 
 Stage Conversion Rates:
 
@@ -104,7 +103,7 @@ Largest leakage occurs at **View → Cart**, indicating potential issues in:
 
 ---
 
-### 4️⃣ Device Optimization Impact Model
+### 4️) Device Optimization Impact Model
 
 Simulation: +1% absolute improvement in mobile conversion
 
@@ -116,7 +115,7 @@ Mobile conversion improvement represents a high-ROI optimization opportunity.
 
 ---
 
-## 🧪 Python Deep-Dive Analysis Includes
+## Python Deep-Dive Analysis Includes
 
 - 7-day rolling revenue & conversion smoothing
 - Correlation heatmap
@@ -127,11 +126,11 @@ Mobile conversion improvement represents a high-ROI optimization opportunity.
 
 Notebook available here:
 
-📓 `notebook/01_funnel_deep_dive.ipynb`
+`notebook/01_funnel_deep_dive.ipynb`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ecommerce-funnel-analytics/
@@ -155,23 +154,24 @@ ecommerce-funnel-analytics/
 
 ---
 
-## 🚀 Strategic Recommendations
+## Strategic Recommendations
 
 1. Improve View → Cart conversion via product page optimization.
 2. Prioritize mobile UX improvements (high revenue elasticity).
 3. Run post-holiday re-engagement campaigns to stabilize conversion.
 4. Monitor conversion deterioration more aggressively than traffic changes.
+5. This analysis demonstrates how small improvements in conversion efficiency can produce outsized revenue gains, reinforcing the importance of conversion optimization over traffic acquisition alone. 
 
 ---
 
-## ▶️ How to Reproduce Analysis
+## How to Reproduce Analysis
 
 1. Load CSV files from `/data/`
 2. Open `notebook/01_funnel_deep_dive.ipynb`
 3. Install dependencies (pandas, numpy, matplotlib)
 4. Run all cells to reproduce KPI calculations and simulations
    
-## 🛠 Tech Stack
+## Tech Stack
 
 - Google BigQuery (SQL modeling)
 - Tableau Public (Dashboard Visualization)
@@ -180,7 +180,7 @@ ecommerce-funnel-analytics/
 
 ---
 
-## 👤 Author
+## Author
 
 Kaustubh Gaikwad  
 M.S. Business Analytics & Artificial Intelligence  
